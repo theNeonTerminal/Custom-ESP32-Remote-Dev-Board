@@ -10710,7 +10710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 30.1752 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12610,7 +12610,7 @@
 		(dnp no)
 		(uuid "3f8c9b22-4459-4000-b4f6-37c377abd15c")
 		(property "Reference" "C_TB1"
-			(at 186.69 37.338 0)
+			(at 186.69 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12805,7 +12805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 56.8452 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18764,7 +18764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 51.7652 78.74 0)
 			(hide yes)
 			(show_name no)
