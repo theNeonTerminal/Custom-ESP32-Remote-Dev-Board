@@ -662,13 +662,18 @@
       {
         "filename": "ESP32 TX Board.kicad_sch",
         "name": "ESP32 TX Board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "e50c5b7d-ddca-493b-9c5b-3aa88b890834"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR4,#PWR13,#PWR27-65,BT1,C9-13,D1,D3-6,H1,J2,L2-5,R7,R13-28,SW3-7,U5-10",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "e50c5b7d-ddca-493b-9c5b-3aa88b890834",
+      "ESP32 TX Board"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
