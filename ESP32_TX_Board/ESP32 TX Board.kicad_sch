@@ -7406,6 +7406,12 @@
 		(uuid "6992888a-7df4-4f92-8ca8-72a588a95659")
 	)
 	(junction
+		(at 123.19 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a24a42e-32c4-4bfd-a1ad-c6cc9a5851c0")
+	)
+	(junction
 		(at 130.81 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7482,6 +7488,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6c418b5-ade2-4b04-a0fc-b7a5f7be5b0c")
+	)
+	(junction
+		(at 121.92 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcab5352-288f-4685-a695-1217d7f3d6bc")
+	)
+	(junction
+		(at 111.76 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deb00d7e-8da3-47e6-9234-eb8341d22685")
 	)
 	(junction
 		(at 62.23 120.65)
@@ -7611,6 +7629,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 20.32) (xy 111.76 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014a1d46-5b10-4466-914b-2d3b79ceaa43")
+	)
+	(wire
+		(pts
 			(xy 50.8 187.96) (xy 57.15 187.96)
 		)
 		(stroke
@@ -7671,7 +7699,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 68.58) (xy 144.78 68.58)
+			(xy 106.68 22.86) (xy 106.68 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b6bf7b-d357-47b9-8d7d-bc7425c8b604")
+	)
+	(wire
+		(pts
+			(xy 120.65 68.58) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7841,16 +7879,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 20.32) (xy 104.14 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32430ecf-585a-430d-8ab1-b830a0e2f158")
-	)
-	(wire
-		(pts
 			(xy 64.77 124.46) (xy 66.04 124.46)
 		)
 		(stroke
@@ -7921,7 +7949,7 @@
 	)
 	(polyline
 		(pts
-			(xy 102.87 21.59) (xy 82.55 21.59)
+			(xy 105.41 21.59) (xy 82.55 21.59)
 		)
 		(stroke
 			(width 0)
@@ -8038,6 +8066,16 @@
 			(type default)
 		)
 		(uuid "5d95422f-df37-43f4-9ad5-034fa5cbcdd4")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa38a8a-000b-4e95-a64f-7b1ecee3dcb9")
 	)
 	(wire
 		(pts
@@ -8211,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 22.86) (xy 85.09 22.86)
+			(xy 85.09 22.86) (xy 106.68 22.86)
 		)
 		(stroke
 			(width 0)
@@ -8221,7 +8259,7 @@
 	)
 	(polyline
 		(pts
-			(xy 102.87 11.43) (xy 102.87 21.59)
+			(xy 105.41 11.43) (xy 105.41 21.59)
 		)
 		(stroke
 			(width 0)
@@ -8331,7 +8369,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 54.61) (xy 120.65 54.61)
+			(xy 118.11 54.61) (xy 123.19 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8438,16 +8476,6 @@
 			(type default)
 		)
 		(uuid "a7ad89eb-9d14-40b4-947a-b3fdc6d40462")
-	)
-	(wire
-		(pts
-			(xy 104.14 20.32) (xy 104.14 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8864d99-8715-443c-b07a-eb2b1061b1d3")
 	)
 	(wire
 		(pts
@@ -8611,6 +8639,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 20.32) (xy 115.57 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58285e0-fe65-4ec2-881d-84c38a7cd640")
+	)
+	(wire
+		(pts
 			(xy 21.59 190.5) (xy 21.59 191.77)
 		)
 		(stroke
@@ -8688,16 +8726,6 @@
 			(type default)
 		)
 		(uuid "ddb3da2a-295d-4a31-95a6-98f5c20e5711")
-	)
-	(wire
-		(pts
-			(xy 120.65 54.61) (xy 123.19 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3798241-ef5e-4f5f-bda5-37b3ad3ef91f")
 	)
 	(wire
 		(pts
@@ -8893,7 +8921,7 @@
 	)
 	(global_label "AIN2"
 		(shape input)
-		(at 34.29 87.63 0)
+		(at 34.29 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8903,7 +8931,7 @@
 		)
 		(uuid "04541857-b8f4-4f6d-8150-d769dc60ac90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.5086 87.63 0)
+			(at 41.5086 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,30 +9052,6 @@
 		(uuid "0e09b35f-75a9-4884-ab2d-e5e751532f08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.7414 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "OUT"
-		(shape input)
-		(at 88.9 16.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "127ae402-c40b-4fc1-8e66-d68d6382bb24")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.2862 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9240,30 +9244,6 @@
 		(uuid "2640b9da-96c2-46a0-ab1e-79a8f1a98646")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.09 47.7376 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "OUT"
-		(shape input)
-		(at 210.82 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26cb782c-2f43-49c6-ab4a-58d401ab4871")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2062 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9779,6 +9759,30 @@
 			)
 		)
 	)
+	(global_label "USB+"
+		(shape input)
+		(at 96.52 13.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74a110ef-bbbf-47db-94d3-271e3d6f863c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.8876 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO26"
 		(shape input)
 		(at 90.17 93.98 180)
@@ -9824,30 +9828,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "OUT"
-		(shape input)
-		(at 210.8581 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76e43e8f-5168-4326-b0f2-445ad1bcc232")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2443 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9936,6 +9916,30 @@
 		(uuid "7e01594d-2067-4b16-a7ca-f6eb62f26b0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.8818 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BAT"
+		(shape input)
+		(at 96.52 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "821a9034-ef9c-4e9b-b50f-a21534e175cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.8314 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10187,30 +10191,6 @@
 			)
 		)
 	)
-	(global_label "OUT"
-		(shape input)
-		(at 132.08 54.61 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abbfddc0-5720-4c66-8396-5cdb0f19a1ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 47.9962 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DCD"
 		(shape input)
 		(at 78.74 146.05 0)
@@ -10416,6 +10396,30 @@
 		(uuid "ba024dee-2211-4039-b058-8191ca543769")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.4105 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BAT"
+		(shape input)
+		(at 210.82 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcd65a5f-3e97-4ea4-99b7-ae7006af541c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.5086 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10667,6 +10671,30 @@
 			)
 		)
 	)
+	(global_label "BAT"
+		(shape input)
+		(at 125.73 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5db5e6b-b852-4ba8-928f-995285c94d17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.0414 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO18"
 		(shape input)
 		(at 223.52 55.88 0)
@@ -10704,30 +10732,6 @@
 		(uuid "e6347ac1-731c-4297-b586-f888d297eee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.7889 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "OUT"
-		(shape input)
-		(at 125.73 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e78d124e-81d0-43e1-ac8c-db965c3cfaec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.3438 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10944,6 +10948,30 @@
 		(uuid "f61b4c16-0f18-4986-a220-afafc957338b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.4714 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BAT"
+		(shape input)
+		(at 210.82 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc0cad2b-2858-4226-af16-5c00d053b2be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.5086 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11480,7 +11508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.54 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -11952,7 +11980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 215.392 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -12033,7 +12061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.972 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -13186,7 +13214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 127 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -13265,7 +13293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 101.6 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13335,7 +13363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c329901-7ad5-4b15-ab0a-8e4b6b9bf389")
-		(property "Reference" "D4"
+		(property "Reference" "DP4"
 			(at 163.83 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13397,7 +13425,85 @@
 		(instances
 			(project "ESP32 TX Board"
 				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
-					(reference "D4")
+					(reference "DP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 123.19 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f5c2f07-0040-4f74-b899-c9323a0cdbd2")
+		(property "Reference" "#FLG04"
+			(at 123.19 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 123.19 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 123.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9995bb1f-b151-4a09-9eb1-079ffcee207c")
+		)
+		(instances
+			(project "ESP32 TX Board"
+				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -13576,6 +13682,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468d3a40-a367-4a27-80dc-738d27b514c8")
+		(property "Reference" "#FLG03"
+			(at 121.92 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.92 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4030b57-b3f7-4621-856f-69b4a7760385")
+		)
+		(instances
+			(project "ESP32 TX Board"
+				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 33.02 90)
 		(unit 1)
@@ -13683,7 +13867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 96.52 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -13742,7 +13926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cda2f84-af1a-422d-a8d2-38aae18654b5")
-		(property "Reference" "D1"
+		(property "Reference" "DP1"
 			(at 163.83 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13804,7 +13988,7 @@
 		(instances
 			(project "ESP32 TX Board"
 				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
-					(reference "D1")
+					(reference "DP1")
 					(unit 1)
 				)
 			)
@@ -13999,7 +14183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -14330,7 +14514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "562baf14-2d36-46ae-88ae-0cce079b119b")
-		(property "Reference" "D3"
+		(property "Reference" "DP3"
 			(at 163.83 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14392,7 +14576,7 @@
 		(instances
 			(project "ESP32 TX Board"
 				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
-					(reference "D3")
+					(reference "DP3")
 					(unit 1)
 				)
 			)
@@ -14903,7 +15087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -15554,7 +15738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70e748d9-a7a3-43b2-853b-4b374cfe939f")
-		(property "Reference" "D_R"
+		(property "Reference" "D_R1"
 			(at 91.44 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15574,7 +15758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 88.9 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15627,7 +15811,7 @@
 		(instances
 			(project "ESP32 TX Board"
 				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
-					(reference "D_R")
+					(reference "D_R1")
 					(unit 1)
 				)
 			)
@@ -15745,7 +15929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 217.932 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -15960,7 +16144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b9543b4-c72a-4811-9802-6f8d0fc48d11")
-		(property "Reference" "D_G"
+		(property "Reference" "D_G1"
 			(at 91.694 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15980,7 +16164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 88.9 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16033,7 +16217,7 @@
 		(instances
 			(project "ESP32 TX Board"
 				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
-					(reference "D_G")
+					(reference "D_G1")
 					(unit 1)
 				)
 			)
@@ -16041,7 +16225,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 92.71 90)
+		(at 34.29 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16052,7 +16236,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba12cba-8a61-40b6-a73f-dcc79f686d2d")
 		(property "Reference" "#PWR035"
-			(at 40.64 92.71 0)
+			(at 40.64 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16063,7 +16247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 92.7099 90)
+			(at 38.1 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16074,7 +16258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 92.71 0)
+			(at 34.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,7 +16269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 92.71 0)
+			(at 34.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16096,7 +16280,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 92.71 0)
+			(at 34.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16305,7 +16489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -16945,7 +17129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 101.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17507,7 +17691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.38 18.0848 0)
 			(hide yes)
 			(show_name no)
@@ -17588,7 +17772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.972 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -17823,7 +18007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17985,7 +18169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 86.868 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17996,7 +18180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.852 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -18075,7 +18259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 95.25 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -18237,7 +18421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 280.162 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -18296,7 +18480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6308944-8818-4086-a92b-f39aa353b488")
-		(property "Reference" "D2"
+		(property "Reference" "DP2"
 			(at 163.83 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18358,7 +18542,7 @@
 		(instances
 			(project "ESP32 TX Board"
 				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
-					(reference "D2")
+					(reference "DP2")
 					(unit 1)
 				)
 			)
@@ -19328,7 +19512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.79 40.9448 0)
 			(hide yes)
 			(show_name no)
@@ -19840,7 +20024,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 93.98 16.51 0)
+		(at 91.44 16.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19850,7 +20034,7 @@
 		(dnp no)
 		(uuid "c42b2878-2443-45b4-82d2-8f22788334bc")
 		(property "Reference" "SW3"
-			(at 93.98 15.494 0)
+			(at 91.44 15.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19860,7 +20044,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 93.726 18.034 0)
+			(at 91.186 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19870,7 +20054,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-			(at 93.98 16.51 0)
+			(at 91.44 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19881,7 +20065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 24.13 0)
+			(at 91.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19892,7 +20076,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 93.98 16.51 0)
+			(at 91.44 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20269,7 +20453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.972 19.05 90)
 			(hide yes)
 			(show_name no)
@@ -20350,7 +20534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 212.852 22.86 90)
 			(hide yes)
 			(show_name no)
@@ -20672,7 +20856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.972 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -20828,7 +21012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 281.94 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -21177,7 +21361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -21612,7 +21796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.6848 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -21691,7 +21875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -21849,7 +22033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 96.52 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -22084,7 +22268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.66 14.9352 0)
 			(hide yes)
 			(show_name no)
@@ -22482,6 +22666,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 111.76 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3cbfbc3-9d5d-4041-96fe-88881f0d18bc")
+		(property "Reference" "#FLG02"
+			(at 111.76 18.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 111.76 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c57364b-5699-46e7-b2ce-490dd87e94ef")
+		)
+		(instances
+			(project "ESP32 TX Board"
+				(path "/e50c5b7d-ddca-493b-9c5b-3aa88b890834"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:TP4056-42-ESOP8")
 		(at 115.57 33.02 0)
 		(unit 1)
@@ -22821,7 +23083,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 99.06 19.05 270)
+		(at 86.36 16.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22831,7 +23093,7 @@
 		(dnp no)
 		(uuid "fd635e72-bc32-4a0a-af02-d19038de6746")
 		(property "Reference" "#PWR043"
-			(at 95.25 19.05 0)
+			(at 90.17 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22842,7 +23104,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.854 18.796 0)
+			(at 83.566 16.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22852,7 +23114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 19.05 0)
+			(at 86.36 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22863,7 +23125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 19.05 0)
+			(at 86.36 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22874,7 +23136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 19.05 0)
+			(at 86.36 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
