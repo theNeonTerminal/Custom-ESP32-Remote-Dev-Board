@@ -35,77 +35,44 @@ From the firmware side, this runs an ESP NOW script allowing seamless and easy w
 > [!NOTE]
 > Schematic and footprint PDF availbale in the /ESP_-X_Board/View/
 
----
-
-## BoM (Bill of Materials)
-
-Also availbale in `./ESP32 RX Board.csv` and `./ESP32 TX Board.csv` if needed in CSV with proper footprints
-
-### ESP32 RX Board
-
-| Reference | Qty | Component / Value | Footprint |
-|:---|:---:|:---|:---|
-| C1, C2, C8 | 3 | 10µF | `C_0603_1608Metric` |
-| C3, C4, C6, C7 | 4 | 0.1µF | `C_0603_1608Metric` |
-| C5 | 1 | 4.7µF | `C_0603_1608Metric` |
-| C9, C10 | 2 | 10µF (THT) | `CP_Radial_D10.0mm` |
-| C11, C_TB1 | 2 | 0.1µF (THT) | `C_Disc_D3.4mm` |
-| D1, D2, D3 | 3 | LED (SMD) | `LED_0603_1608Metric` |
-| J1 | 1 | USB-C Receptacle | `USB4105-xx-A` |
-| J2 | 1 | 2-Pin Header | `PinHeader_1x02` |
-| J3 | 1 | 2-Pin Screw Terminal | `MX126-5.0-02P` |
-| J4–J7 | 4 | 2-Pin Screw Terminal | `MX126-5.0-02P` |
-| J8 | 1 | 16-Pin Socket | `PinSocket_1x16` |
-| M1–M4 | 4 | Servo Connector (3-Pin) | `PinHeader_1x03` |
-| Q1, Q2 | 2 | SS8050 | `SOT-23` |
-| R1, R7 | 2 | 330Ω | `R_0603_1608Metric` |
-| R2, R3 | 2 | 5.1kΩ | `R_0603_1608Metric` |
-| R4 | 1 | 47.5kΩ | `R_0603_1608Metric` |
-| R5 | 1 | 22.1kΩ | `R_0603_1608Metric` |
-| R6, R13 | 2 | 1kΩ | `R_0603_1608Metric` |
-| R8–R12 | 5 | 10kΩ | `R_0603_1608Metric` |
-| SW1 | 1 | Reset Switch | `CK_PTS636Sx25SMTRLFS` |
-| SW2 | 1 | Boot Switch | `CK_PTS636Sx25SMTRLFS` |
-| U1 | 1 | AMS1117-3.3 | `SOT-223-3` |
-| U2 | 1 | CP2102N-Axx-xQFN28 | `QFN-28-1EP` |
-| U3 | 1 | USBLC6-2SC6 | `SOT-23-6` |
-| U4 | 1 | ESP32-WROOM-32 | `ESP32-WROOM-32` |
-| U5 | 1 | L7805 | `TO-220-3` |
-| U6, U7 | 2 | TB6612FNG | `SSOP-24` |
-| U8 | 1 | 74HC595 | `DIP-16_W7.62mm` |
 
 
-### ESP32 TX Board
-
-| Reference | Qty | Component / Value | Footprint |
-|:---|:---:|:---|:---|
-| BT1 | 1 | Battery | `BatteryHolder_MPD_BH-18650-PC` |
-| C1, C2, C8, C12 | 4 | 10µF | `C_0603_1608Metric` |
-| C3, C4, C6, C7, C9, C10, C11, C13 | 8 | 0.1µF | `C_0603_1608Metric` |
-| C5 | 1 | 4.7µF | `C_0603_1608Metric` |
-| D2, D5 | 2 | LED (SMD) | `LED_0603_1608Metric` |
-| DP1–DP4 | 4 | Push Button | `SW_PUSH_6mm` |
-| D_G1, D_R1, L1–L4 | 6 | LED (5mm THT) | `LED_D5.0mm` |
-| J1 | 1 | USB-C Receptacle | `USB4105-xx-A` |
-| J2 | 1 | 2×8 Pin Socket | `PinSocket_2x08` |
-| Q1, Q2 | 2 | SS8050 | `SOT-23` |
-| Q3 | 1 | FS8205A | `SOP65P640X120-8N` |
-| R1 | 1 | 330Ω | `R_0603_1608Metric` |
-| R2, R3 | 2 | 5.1kΩ | `R_0603_1608Metric` |
-| R4 | 1 | 47.5kΩ | `R_0603_1608Metric` |
-| R5 | 1 | 22.1kΩ | `R_0603_1608Metric` |
-| R6, R15–R18, R20–R23 | 9 | 1kΩ | `R_0603_1608Metric` |
-| R7–R14 | 8 | 10kΩ | `R_0603_1608Metric` |
-| R19 | 1 | 100Ω | `R_Axial_DIN0309` |
-| R24–R28 | 5 | 470Ω | `R_0603_1608Metric` |
-| SW1 | 1 | Reset Switch | `CK_PTS636Sx25SMTRLFS` |
-| SW2 | 1 | Boot Switch | `CK_PTS636Sx25SMTRLFS` |
-| SW3 | 1 | SPDT Slide Switch | `WS-SLTV` |
-| U1 | 1 | AMS1117-3.3 | `SOT-223-3` |
-| U2 | 1 | CP2102N-Axx-xQFN28 | `QFN-28-1EP` |
-| U3 | 1 | USBLC6-2SC6 | `SOT-23-6` |
-| U4 | 1 | ESP32-WROOM-32 | `ESP32-WROOM-32` |
-| U5 | 1 | ADS1115IDGS | `TSSOP-10` |
-| U6, U7 | 2 | Joystick Module | `JoyStick` |
-| U8 | 1 | TP4056 | `SOIC-8-1EP` |
-| U9 | 1 | DW01A | `SOT95P280X145-6N` |
+| Qty | Value | Footprint | Price (₹/unit) | Buy link (India) |
+|---:|---|---|---:|---|
+| 1 | Battery | `Battery:BatteryHolder_MPD_BH-18650-PC` | 34.03 | [LCSC India](https://lcscindia.com/part/C49118395) |
+| 9 | 10uf | `Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder` | 2.25 | [LCSC India](https://lcscindia.com/part/C19702) |
+| 14 | 0.1uf | `Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder` | 0.67 | [LCSC India](https://lcscindia.com/part/C14663) |
+| 2 | 4.7uf | `Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder` | 1.63 | [LCSC India](https://lcscindia.com/part/C1705) |
+| 5 | LED | `LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder` | 0.48 | [LCSC India](https://lcscindia.com/part/C965799) |
+| 4 | SW_Push | `Button_Switch_THT:SW_PUSH_6mm` | 2.00 | [Robu](https://robu.in/product/6x6x5mm-tactile-push-button-switch-1-pcs/) |
+| 6 | LED | `LED_THT:LED_D5.0mm` | 0.86 | [Robu](https://robu.in/product/5mm-red-dip-led-pack-of-50/) |
+| 2 | USB_C_Receptacle_USB2.0_16P | `Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal` | 9.30 | [LCSC India](https://lcscindia.com/part/C2765186) |
+| 1 | Conn_02x08_Counter_Clockwise | `Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical` | 25.00 | [Robu](https://robu.in/product/fh2-54-09-08pzs-xunpu-plugin2x8-pin-2-54mm-female-headers-rohs/) |
+| 4 | SS8050 | `Package_TO_SOT_SMD:SOT-23` | 1.20 | [LCSC India](https://lcscindia.com/part/C5143143) |
+| 1 | FS8205A | `FS8205A:SOP65P640X120-8N` | 6.67 | [LCSC India](https://lcscindia.com/part/C2830320) |
+| 3 | 330 | `Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder` | 0.30 | [LCSC India](https://lcscindia.com/part/C105881) |
+| 4 | 5.1k | `Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder` | 0.20 | [LCSC India](https://lcscindia.com/part/C23186) |
+| 2 | 47.5k | `Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder` | 0.44 | [LCSC India](https://lcscindia.com/part/C325696) |
+| 2 | 22.1k | `Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder` | 0.25 | [LCSC India](https://lcscindia.com/part/C2960862) |
+| 11 | 1k | `Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder` | 0.48 | [LCSC India](https://lcscindia.com/part/C22548) |
+| 13 | 10k | `Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder` | 0.30 | [LCSC India](https://lcscindia.com/part/C98220) |
+| 1 | 100 | `Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal` | 0.39 | [Robu](https://robu.in/product/0-25w-100-ohm-resistor-pack-of-100/) |
+| 5 | 470 | `Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder` | 0.36 | [LCSC India](https://lcscindia.com/part/C114669) |
+| 2 | SW_RESET | `Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS` | 2.99 | [LCSC India](https://lcscindia.com/part/C36498960) |
+| 2 | SW_BOOT | `Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS` | 2.99 | [LCSC India](https://lcscindia.com/part/C36498960) |
+| 1 | SW_SPDT | `Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm` | 15.00 | [Robu](https://robu.in/product/kcd1-2-103-spdt-rocker-switch-3pinon-off-on/) |
+| 2 | AMS1117-3.3 | `Package_TO_SOT_SMD:SOT-223-3_TabPin2` | 7.22 | [LCSC India](https://lcscindia.com/part/C5205141) |
+| 2 | CP2102N-Axx-xQFN28 | `Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm` | 240.73 | [LCSC India](https://lcscindia.com/part/C964632) |
+| 2 | USBLC6-2SC6 | `Package_TO_SOT_SMD:SOT-23-6` | 5.01 | [LCSC India](https://lcscindia.com/part/C5180279) |
+| 2 | ESP32-WROOM-32 | `RF_Module:ESP32-WROOM-32` | 509.14 | [LCSC India](https://lcscindia.com/part/C473012) |
+| 1 | ADS1115IDGS | `Package_SO:TSSOP-10_3x3mm_P0.5mm` | 162.38 | [LCSC India](https://lcscindia.com/part/C37593) |
+| 2 | Joystick | `Joystick:JoyStick` | 61.00 | [Robu](https://robu.in/product/thumb-joystick-button/) |
+| 1 | TP4056 | `Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias` | 5.07 | [LCSC India](https://lcscindia.com/part/C54900232) |
+| 1 | DW01A | `DW01A:SOT95P280X145-6N` | 2.70 | [LCSC India](https://lcscindia.com/part/C39846919) |
+| 1 | Conn_01x02_Pin | `Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical` | 11.00 | [Robu](https://robu.in/product/ds1021-1x2sf11-b-connfly-1x2-pin-2-54mm-pin-header-v-t-type/) |
+| 5 | Conn_01x02_Socket | `TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm` | 8.00 | [Robu](https://robu.in/product/xy126v-5-0-xinya-2-pin-screw-terminal-blockgreen/) |
+| 1 | Conn_01x16_Socket | `Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical` | 30.00 | [Robu](https://robu.in/product/fh1-27-01-08pzd-xunpu-plugin1x8-pin-1-27mm-female-headers-rohs/) |
+| 4 | Motor_Servo | `Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical` | 15.00 | [Robu](https://robu.in/product/ds1021-1x3sf11-b-connfly-1x3-pin-2-54mm-pin-header-v-t-type/) |
+| 1 | L7805 | `Package_TO_SOT_THT:TO-220-3_Vertical` | 34.00 | [Robu](https://robu.in/product/l7805cv-stmicroelectronics-linear-voltage-regulator-7805-fixed-positive-10v-to-35v-in-5v-and-1-5a-out-to-220-3/) |
+| 2 | TB6612FNG | `Package_SO:SSOP-24_5.3x8.2mm_P0.65mm` | 149.68 | [LCSC India](https://lcscindia.com/part/C88224) |
+| 1 | 74HC595 | `Package_DIP:DIP-16_W7.62mm` | 20.00 | [Robu](https://robu.in/product/74hc595-8-bit-serial-to-parallel-shift-register-ic-74595-ic-dip-16-package/) |
