@@ -35,6 +35,9 @@ From the firmware side, this runs an ESP NOW script allowing seamless and easy w
 > [!NOTE]
 > Schematic and footprint PDF availbale in the /ESP_-X_Board/View/
 
+---
+
+## BoM (also availbale in BoM.csv)
 
 
 | Qty | Value | Footprint | Price (₹/unit) | Buy link (India) |
@@ -76,3 +79,7 @@ From the firmware side, this runs an ESP NOW script allowing seamless and easy w
 | 1 | L7805 | `Package_TO_SOT_THT:TO-220-3_Vertical` | 34.00 | [Robu](https://robu.in/product/l7805cv-stmicroelectronics-linear-voltage-regulator-7805-fixed-positive-10v-to-35v-in-5v-and-1-5a-out-to-220-3/) |
 | 2 | TB6612FNG | `Package_SO:SSOP-24_5.3x8.2mm_P0.65mm` | 149.68 | [LCSC India](https://lcscindia.com/part/C88224) |
 | 1 | 74HC595 | `Package_DIP:DIP-16_W7.62mm` | 20.00 | [Robu](https://robu.in/product/74hc595-8-bit-serial-to-parallel-shift-register-ic-74595-ic-dip-16-package/) |
+
+---
+
+Gerbers `.zip`s are availabale in the `/production` folder, which are ready to be uploaded directly into any PCB manufacturing website
